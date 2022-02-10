@@ -86,6 +86,7 @@ Generate arrow function (single line) which implicitly returns the value
 
 ```
 // afs || fns
+
 () =>
 ```
 
@@ -95,6 +96,7 @@ Generate arrow function
 
 ```
 // af || fn
+
 () => {
 
 };
@@ -106,6 +108,7 @@ Generate `describe()` and `it()` for unit testing
 
 ```
 // describeit || ldescribeit
+
 describe('', () => {
     it('', () => {
 
@@ -119,6 +122,7 @@ Generate `describe()` for unit testing
 
 ```
 // describe || ldescribe
+
 describe('', () => {
 
 });
@@ -130,6 +134,7 @@ Generate `it()` for unit testing
 
 ```
 // it || lit
+
 it('', () => {
 
 });
