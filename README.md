@@ -94,6 +94,7 @@ Generate arrow function (single line) which implicitly returns the value
 Generate arrow function
 
 ```
+// af || fn
 () => {
 
 };
@@ -104,6 +105,7 @@ Generate arrow function
 Generate `describe()` and `it()` for unit testing
 
 ```
+// describeit || ldescribeit
 describe('', () => {
     it('', () => {
 
@@ -116,6 +118,7 @@ describe('', () => {
 Generate `describe()` for unit testing
 
 ```
+// describe || ldescribe
 describe('', () => {
 
 });
@@ -126,6 +129,7 @@ describe('', () => {
 Generate `it()` for unit testing
 
 ```
+// it || lit
 it('', () => {
 
 });
