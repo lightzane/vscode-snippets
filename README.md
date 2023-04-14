@@ -4,10 +4,19 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) user snippets f
 
 ## How To
 
+**Windows**
+
 1. `File`
 2. `Preferences > User Snippets`
 3. Select existing snippet file **or** create your own new snippet
-4. Copy the snippet content below
+4. Copy the **user-snippet.json** content below
+
+**MacOS**
+
+1. `Code`
+2. `Settings... > Configure User Snippets`
+
+Steps 3-4: Same as **Windows**
 
 **user-snippet.json**
 
@@ -64,7 +73,26 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) user snippets f
     "prefix": ["it", "lit"],
     "description": "Generate it() for unit testing",
     "body": ["it('$1', () => {", "\t$2", "});"]
-  }
+  },
+  "Typescript React Function Component": {
+    "prefix": "fc",
+    "description": "Typescript React Function Component",
+    "body": [
+      // "import { FC } from 'react'",
+      // "",
+      "interface Props {",
+      "  $1",
+      "}",
+      "",
+      // "const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}: FC<Props> = ({$2}) => {",
+      "export default function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(props: Props) {",
+      "  return <>${TM_FILENAME_BASE} works!</>",
+      "}",
+      "",
+      // "export default ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}",
+      // ""
+    ]
+  },
 }
 ```
 
@@ -77,6 +105,7 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) user snippets f
 |                               [describe-it](#describe-it) | `describeit` or `ldescribeit` | Generate `describe()` and `it()` for unit testing                        |
 |                                     [describe](#describe) | `describe` or `ldescribe`     | Generate `describe()` for unit testing                                   |
 |                                                 [it](#it) | `it` or `lit`                 | Generate `it()` for unit testing                                         |
+|                                                 [fc](#fc) | `fc`                          | Generate a Typescript React functional component template                |
 
 ## Snippets
 
@@ -84,7 +113,7 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) user snippets f
 
 Generate arrow function (single line) which implicitly returns the value
 
-```
+```ts
 // afs || fns
 
 () =>
@@ -94,25 +123,21 @@ Generate arrow function (single line) which implicitly returns the value
 
 Generate arrow function
 
-```
+```ts
 // af || fn
 
-() => {
-
-};
+() => {};
 ```
 
 ### describe it
 
 Generate `describe()` and `it()` for unit testing
 
-```
+```ts
 // describeit || ldescribeit
 
 describe('', () => {
-    it('', () => {
-
-    });
+  it('', () => {});
 });
 ```
 
@@ -120,22 +145,31 @@ describe('', () => {
 
 Generate `describe()` for unit testing
 
-```
+```ts
 // describe || ldescribe
 
-describe('', () => {
-
-});
+describe('', () => {});
 ```
 
 ### it
 
 Generate `it()` for unit testing
 
-```
+```ts
 // it || lit
 
-it('', () => {
+it('', () => {});
+```
 
-});
+### fc
+
+Generate a Typescript React functional component template
+
+```ts
+// sample.page.tsx
+interface Props {}
+
+export default function SamplePage(props: Props) {
+  return <>sample.page works!</>;
+}
 ```
