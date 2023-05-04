@@ -4,7 +4,6 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) extensions
 
 | Ext name                      | Author           | Description                                                                                                                             |
 | ----------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `One Dark Pro`                | binaryify        | Atom‘s iconic One Dark theme for Visual Studio Code                                                                                     |
 | `Material Icon Theme`         | ✅ Philipp Kief  | Material Design Icons for Visual Studio Code                                                                                            |
 | `Jest Runner`                 | firsttris        | Simple way to run or debug a single (or multiple) tests from context-menu                                                               |
 | `Jest Test Explorer`          | kavod.io         | Run your tests in Sidebar of Visual Studio Code                                                                                         |
@@ -14,3 +13,10 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) extensions
 | `Tailwind CSS IntelliSense`   | ✅ Tailwind Labs | Intelligent Tailwind CSS tooling for VS Code                                                                                            |
 | `Angular Language Service`    | ✅ Angular       | Editor services for Angular templates                                                                                                   |
 | `GitLens -- Git supercharged` | GitKraken        | Supercharge Git within VS Code - Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate a... |
+
+## Vscode Themes
+
+| Ext name           | Author           | Description                                                              |
+| ------------------ | ---------------- | ------------------------------------------------------------------------ |
+| `One Dark Pro`     | binaryify        | Atom‘s iconic One Dark theme for Visual Studio Code                      |
+| `Dracula Official` | ✅ Dracula Theme | Official Dracula Theme. A dark theme for many editors, shells, and more. |
