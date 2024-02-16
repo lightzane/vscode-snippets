@@ -11,6 +11,7 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) extensions
 | `Markdown Preview Github Styling` | ✅ Matt Bierner | Changes VS Code's built-in markdown preview to match Github's style                                                                     |
 | `Better Comments`                 | ✅ Aaron Bond   | Improve your code commenting by annotating with alert, informational, TODOs, and more!                                                  |
 | `DotENV`                          | mikestead       | Support for dotenv file syntax                                                                                                          |
+| `Error Lens`                      | Alexander       | Improve highlighting of errors, warnings and other language diagnostics.                                                                |
 | `GitLens -- Git supercharged`     | GitKraken       | Supercharge Git within VS Code - Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate a... |
 
 ## Vscode Themes
