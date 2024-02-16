@@ -4,13 +4,14 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) extensions
 
 ## General Extensions
 
-| Ext name                      | Author          | Description                                                                                                                             |
-| ----------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `Material Icon Theme`         | ✅ Philipp Kief | Material Design Icons for Visual Studio Code                                                                                            |
-| `Prettier - Code formatter`   | ✅ Prettier     | Code formatter using prettier (for web dev and nodejs)                                                                                  |
-| `Better Comments`             | ✅ Aaron Bond   | Improve your code commenting by annotating with alert, informational, TODOs, and more!                                                  |
-| `DotENV`                      | mikestead       | Support for dotenv file syntax                                                                                                          |
-| `GitLens -- Git supercharged` | GitKraken       | Supercharge Git within VS Code - Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate a... |
+| Ext name                          | Author          | Description                                                                                                                             |
+| --------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `Material Icon Theme`             | ✅ Philipp Kief | Material Design Icons for Visual Studio Code                                                                                            |
+| `Prettier - Code formatter`       | ✅ Prettier     | Code formatter using prettier (for web dev and nodejs)                                                                                  |
+| `Markdown Preview Github Styling` | ✅ Matt Bierner | Changes VS Code's built-in markdown preview to match Github's style                                                                     |
+| `Better Comments`                 | ✅ Aaron Bond   | Improve your code commenting by annotating with alert, informational, TODOs, and more!                                                  |
+| `DotENV`                          | mikestead       | Support for dotenv file syntax                                                                                                          |
+| `GitLens -- Git supercharged`     | GitKraken       | Supercharge Git within VS Code - Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate a... |
 
 ## Vscode Themes
 
