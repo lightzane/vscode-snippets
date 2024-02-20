@@ -19,4 +19,5 @@ Download site: https://github.com/tonsky/FiraCode
 ```json
 "editor.fontFamily": "'Fira Code Regular', Menlo, Consolas, 'Courier New', monospace",
 "editor.fontLigatures": "'zero', 'ss02', 'ss03', 'ss04', 'ss05'",
+"editor.lineHeight": 1.8, // optional
 ```
