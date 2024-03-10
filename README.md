@@ -29,7 +29,10 @@ Click `Save` at bottom right
 
 ## Setup Dracula Theme
 
-Reference: https://draculatheme.com/windows-terminal
+Reference:
+
+- **Windows** - https://draculatheme.com/windows-terminal
+- **Mac** - https://draculatheme.com/terminal
 
 In bottom left, select the `Open JSON file`. This will open up a JSON settings.
 
@@ -77,3 +80,13 @@ Click `Save` at bottom right
 ## Result
 
 ![result](./result.png)
+
+## Setup Dracula on MacOS
+
+Reference: https://draculatheme.com/terminal
+
+```bash
+git clone https://github.com/dracula/terminal-app.git
+```
+
+![setup dracula mac terminal](./setup-dracula-mac-terminal.png)
