@@ -16,10 +16,11 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) extensions
 
 ## Vscode Themes
 
-| Ext name           | Author           | Description                                                              |
-| ------------------ | ---------------- | ------------------------------------------------------------------------ |
-| `Dracula Official` | ✅ Dracula Theme | Official Dracula Theme. A dark theme for many editors, shells, and more. |
-| `One Dark Pro`     | binaryify        | Atom‘s iconic One Dark theme for Visual Studio Code                      |
+| Ext name                      | Author           | Description                                                                |
+| ----------------------------- | ---------------- | -------------------------------------------------------------------------- |
+| `Dracula Official`            | ✅ Dracula Theme | Official Dracula Theme. A dark theme for many editors, shells, and more.   |
+| `Apollo Midnight Color Theme` | Apollo GraphQL   | A dark theme based on Apollo Studio's color palette in Explorer dark mode. |
+| `One Dark Pro`                | binaryify        | Atom‘s iconic One Dark theme for Visual Studio Code                        |
 
 ## Angular Extensions
 
