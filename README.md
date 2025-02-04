@@ -38,6 +38,15 @@ Steps 3-4: Same as **Windows**
   // 	],
   // 	"description": "Log output to console"
   // }
+
+  // For current-datetime, see also section: keybindings.json below
+  "@lightzane/current-datetime": {
+		"prefix": ["date", "ldate"],
+		"description": "Add current date & time",
+		"body": [
+			"$CURRENT_YEAR.$CURRENT_MONTH.${CURRENT_DATE}T$CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND.000+08:00"
+		],
+	},
   "@lightzane/arrow-function-single-line": {
     "scope": "javascript, typescript",
     "prefix": ["afs", "fns"],
@@ -172,4 +181,24 @@ interface Props {}
 export default function SamplePage(props: Props) {
   return <>sample.page works!</>;
 }
+```
+
+## Keyboard Shortcuts
+
+1. Open the Command Palette with `Ctrl+Shift+P`
+2. `> keyboard shortcuts`
+3. Select **"Preferences: Open Keyboard Shortcuts (JSON)"**
+
+```json
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "CTRL+D CTRL+T",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "$CURRENT_YEAR.$CURRENT_MONTH.${CURRENT_DATE}T$CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND.000+08:00"
+    }
+  }
+]
 ```
