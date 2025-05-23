@@ -69,3 +69,9 @@ https://tailwindcss.com/
 | Ext name                    | Author           | Description                                  |
 | --------------------------- | ---------------- | -------------------------------------------- |
 | `Tailwind CSS IntelliSense` | ✅ Tailwind Labs | Intelligent Tailwind CSS tooling for VS Code |
+
+## Vue Extensions
+
+| Ext name         | Author | Description              |
+| ---------------- | ------ | ------------------------ |
+| `Vue - Official` | ✅ Vue | Language Support for Vue |
