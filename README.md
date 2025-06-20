@@ -66,12 +66,18 @@ https://www.python.org/
 
 https://tailwindcss.com/
 
-| Ext name                    | Author           | Description                                  |
-| --------------------------- | ---------------- | -------------------------------------------- |
-| `Tailwind CSS IntelliSense` | ✅ Tailwind Labs | Intelligent Tailwind CSS tooling for VS Code |
+| Ext name                                   | Author           | Description                                  |
+| ------------------------------------------ | ---------------- | -------------------------------------------- |
+| [`Tailwind CSS IntelliSense`][tailwindcss] | ✅ Tailwind Labs | Intelligent Tailwind CSS tooling for VS Code |
+
+[tailwindcss]: https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+
+[Read more](./docs/tailwindcss.md) on how to customize its settings
 
 ## Vue Extensions
 
-| Ext name         | Author | Description              |
-| ---------------- | ------ | ------------------------ |
-| `Vue - Official` | ✅ Vue | Language Support for Vue |
+| Ext name                         | Author | Description              |
+| -------------------------------- | ------ | ------------------------ |
+| [`Vue - Official`][vue-official] | ✅ Vue | Language Support for Vue |
+
+[vue-official]: https://marketplace.visualstudio.com/items?itemName=Vue.volar
