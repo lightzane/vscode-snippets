@@ -62,6 +62,16 @@ https://www.python.org/
 
 - As of this writing, when installing `Python` ext, then it will also automatically the following VScode ext: `Pylance` and `Python Debugger`
 
+## Rust Extensions
+
+<https://doc.rust-lang.org/book/appendix-04-useful-development-tools.html?highlight=rust-analyzer#ide-integration-using-rust-analyzer>
+
+| Ext name                         | Author           | Description                                  |
+| -------------------------------- | ---------------- | -------------------------------------------- |
+| [`Rust Analyzer`][rust-analyzer] | ✅ rust-lang.org | Rust language support for Visual Studio Code |
+
+[rust-analyzer]: https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer
+
 ## TailwindCSS Extensions
 
 https://tailwindcss.com/
