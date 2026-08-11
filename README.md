@@ -8,7 +8,9 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) extensions
 | --------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | `Material Icon Theme`             | ✅ Philipp Kief | Material Design Icons for Visual Studio Code                                                                                            |
 | `Prettier - Code formatter`       | ✅ Prettier     | Code formatter using prettier (for web dev and nodejs)                                                                                  |
+| `Oxc`                             | ✅ Oxc          | Oxlint and Oxfmt editor integration                                                                                                     |
 | `Markdown Preview Github Styling` | ✅ Matt Bierner | Changes VS Code's built-in markdown preview to match Github's style                                                                     |
+| `Even Better TOML`                | ✅ tamasfe      | Fully-featured TOML support                                                                                                             |
 | `Better Comments`                 | ✅ Aaron Bond   | Improve your code commenting by annotating with alert, informational, TODOs, and more!                                                  |
 | `DotENV`                          | mikestead       | Support for dotenv file syntax                                                                                                          |
 | `Error Lens`                      | Alexander       | Improve highlighting of errors, warnings and other language diagnostics.                                                                |
@@ -18,6 +20,7 @@ My personal [Visual Studio Code](https://code.visualstudio.com/) extensions
 
 | Ext name                      | Author           | Description                                                                |
 | ----------------------------- | ---------------- | -------------------------------------------------------------------------- |
+| `GitHub Theme`                | ✅ GitHub        | GitHub theme for VS Code                                                   |
 | `Dracula Official`            | ✅ Dracula Theme | Official Dracula Theme. A dark theme for many editors, shells, and more.   |
 | `Apollo Midnight Color Theme` | Apollo GraphQL   | A dark theme based on Apollo Studio's color palette in Explorer dark mode. |
 | `One Dark Pro`                | binaryify        | Atom‘s iconic One Dark theme for Visual Studio Code                        |
@@ -56,11 +59,11 @@ https://jestjs.io/
 
 https://www.python.org/
 
-| Ext name | Author       | Description                                                                                                           |
-| -------- | ------------ | --------------------------------------------------------------------------------------------------------------------- |
-| `Python` | ✅ Microsoft | IntelliSense (`Pylance`), Linting, Debugging (`Python Debugger`), code formatting, refactoring, unit tests, and more. |
-
-- As of this writing, when installing `Python` ext, then it will also automatically the following VScode ext: `Pylance` and `Python Debugger`
+| Ext name            | Author             | Description                                                                                                                                                                                                                                                              |
+| ------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `Python`            | ✅ Microsoft       | IntelliSense (`Pylance`), Linting, Debugging (`Python Debugger`), code formatting, refactoring, unit tests, and more.<br><br>As of this writing, when installing `Python` ext, then it will also automatically the following VScode ext: `Pylance` and `Python Debugger` |
+| `Ruff`              | ✅ Astral Software | A Visual Studio Code extension with support for the Ruff linter and formatter for Python.                                                                                                                                                                                |
+| `Mypy Type Checker` | ✅ Microsoft       | Type checking support for Python files using Mypy.                                                                                                                                                                                                                       |
 
 ## Rust Extensions
 
@@ -91,3 +94,9 @@ https://tailwindcss.com/
 | [`Vue - Official`][vue-official] | ✅ Vue | Language Support for Vue |
 
 [vue-official]: https://marketplace.visualstudio.com/items?itemName=Vue.volar
+
+## AI
+
+| Ext name                | Author       | Description                                                                        |
+| ----------------------- | ------------ | ---------------------------------------------------------------------------------- |
+| Claude Code for VS Code | ✅ Anthropic | Claude Code for VS Code: Harness the power of Claude Code without leaving your IDE |
